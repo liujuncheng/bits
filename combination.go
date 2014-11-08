@@ -1,8 +1,8 @@
 package bits
 
 const (
-	Uint64AllZero = uint64(0)
-	Uint64AllMask = ^Uint64AllZero
+	Uint64AllZero = uint64(0)      //0x0
+	Uint64AllMask = ^Uint64AllZero //0xFFFFFFFFFFFFFFFF
 	Mask01        = uint64(0x1)
 	Mask11        = uint64(0x3)
 )
